@@ -46,7 +46,7 @@ esac
 
 tun0="$(ip addr show | grep tun0 |grep -o 'inet [0-9]*\.[0-9]*\.[0-9]*\.[0-9]*' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*')"
 
-echo -e "${H1}${D1}[!] RevShellGen for HTB | @HarithDilshan  ${H0}"
+echo -e "${H1}${D1}[!] RevSh3ll for HTB | @HarithDilshan  ${H0}"
 echo -e "${H2}${D0}${D4}php :: python :: ruby :: perl :: netcat :: bash ${H0}"
 
 read -p "[+] Select Port [default:5656]: " port
