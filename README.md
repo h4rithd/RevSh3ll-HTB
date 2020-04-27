@@ -27,7 +27,7 @@ chmod +x revshell.sh
 ## Run
 
 ```
-revshell
+$ revshell
 ```
 
 ## Screenshots
