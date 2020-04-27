@@ -12,13 +12,13 @@ It automates the all boring stuff.
 ## Download
 
 ```
-git clone https://github.com/ShapManasick/RevShell-Gen-for-HTB
+git clone https://github.com/ShapManasick/RevSh3ll-HTB
 ```
 
 ## Install
 
 ```
-wget https://raw.githubusercontent.com/ShapManasick/RevShell-Gen-for-HTB/master/revshell.sh
+wget https://github.com/ShapManasick/RevSh3ll-HTB/blob/master/revshell.sh
 chmod +x revshell.sh
 ./revshell.sh --install
 ```
