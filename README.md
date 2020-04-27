@@ -18,7 +18,7 @@ git clone https://github.com/ShapManasick/RevSh3ll-HTB
 ## Install
 
 ```
-wget https://github.com/ShapManasick/RevSh3ll-HTB/blob/master/revshell.sh
+wget https://raw.githubusercontent.com/ShapManasick/RevSh3ll-HTB/master/revshell.sh
 chmod +x revshell.sh
 ./revshell.sh --install
 ```
