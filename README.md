@@ -21,6 +21,13 @@ wget https://raw.githubusercontent.com/ShapManasick/RevShell-Gen-for-HTB/master/
 ./revshell.sh --install
 ```
 
+
+## Run
+
+```
+revshell
+```
+
 ## Screenshots
 
 
