@@ -4,7 +4,7 @@
 
 
 [![built-with-love](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ShapManasick)
-[![compatibility-betamax](https://forthebadge.com/images/featured/featured-compatibility-betamax.svg)
+[![beta](https://forthebadge.com/images/featured/featured-compatibility-betamax.svg)]
 
 Standalone script written in Bash for generating reverse shells for HackTheBox easily without typing. 
 It automates the all boring stuff.
