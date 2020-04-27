@@ -31,7 +31,7 @@ $ revshell
 ```
 
 ## Screenshots
-[![asciicast](https://asciinema.org/a/324461.svg)](https://asciinema.org/a/324461)
+[![asciicast](https://asciinema.org/a/324473.svg)](https://asciinema.org/a/324473)
 
 ### Disclaimer
 
