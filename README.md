@@ -19,6 +19,7 @@ git clone https://github.com/ShapManasick/RevShell-Gen-for-HTB
 
 ```
 wget https://raw.githubusercontent.com/ShapManasick/RevShell-Gen-for-HTB/master/revshell.sh
+chmod +x revshell.sh
 ./revshell.sh --install
 ```
 
@@ -30,7 +31,7 @@ revshell
 ```
 
 ## Screenshots
-
+[![asciicast](https://asciinema.org/a/324461.svg)](https://asciinema.org/a/324461)
 
 ### Disclaimer
 
