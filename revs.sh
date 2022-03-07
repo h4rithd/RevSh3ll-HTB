@@ -11,7 +11,6 @@ ip="$(ip addr show | grep 'global tun0' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]
 [[ ! -z "$2" ]] && port=$2
 [[ ! -z "$3" ]] && ip=$3
 
-
 function listener {
     if [[ -z "$1" ]]
     then
